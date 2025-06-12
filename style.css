@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Concert+One&family=Lilita+One&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body{
+    display:flex;
+    align-items: center;
+    background-image: url(/images/GALL.jpg);
+    background-size: cover;
+    line-height: 15px;
+    background-attachment: fixed;/*for back ground no repeat*/
+    background-position:center;
+    justify-content: center;
+    
+    
+}
+/*wlcome back*/
+.wrapper h2{  
+    font-size: 36px;
+    text-align: center; 
+    font-family: Concert One;
+    color:rgb(255, 234, 72)
+}
+/*login to your account*/
+.wrapper h3{
+    font-size: 20px;
+    text-align:center;
+    font-family:Concert One;
+    font-weight: small;
+    color:rgb(247, 132, 83);
+    text-indent: 1px;
+}
+/*login*/
+button{
+    font-weight: bold;
+    font-size: 13px;
+    margin: 10px ;
+    position: relative;
+    left: 108px;
+    width:200px;
+    height: 30px;
+    border-radius: 100px ;
+    justify-content: space-between;}
+
+
+input [type="checkbox"]{
+    appearance: none;
+    position: relative;
+    left:800px;
+}button:hover{
+    color:aliceblue;
+    background-color: rgb(58, 134, 188);
+}
+
+a{/*forget password*/
+    color:rgb(161, 198, 245);
+    position: relative;
+    left:155px;
+    font-size: 15px;
+    font-family: winky sans;
+    text-decoration: none;
+    text-align: center;}
+a:hover{
+    color:rgb(128, 241, 128);
+}
+
+p{/*"don't have"*/
+    text-align: center;
+}
+
+p a{/*"creat an"*/
+    color:rgb(161, 198, 245);
+    position: static; }
+p a:hover{
+    color:rgb(128, 241, 128) ;
+}
+
+/* الاطار */
+.wrapper{
+    margin-top: 10%;
+    background-color:transparent;
+    border-radius: 10px;
+    width: 420px;
+    height: 390px;
+    border:3px solid rgb(248, 243, 243,0.7);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgb(165, 175, 177);
+    font-family:Lilita One;
+    color:antiquewhite;
+    font-weight:Winky Sans; 
+    
+    
+    
+}   
+/* اuser and passwprd*/
+.wrapper .input-box{
+    width: 400px;
+    height: 40px;
+    margin:30px 0;
+}
+.input-box input{
+    width: 75%;
+    height: 90%;
+    color:rgb(244, 244, 223);
+    border-radius: 40px;
+    font-size: 16px;
+    border: 2px solid  rgb(165, 175, 177);
+    margin: 10px;
+    position: relative;
+    left:40px;
+    background: transparent;
+}
+.input-box input::placeholder{
+    color:#fff;
+    font-size: 11px;
+    position: absolute;
+    left:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
